@@ -7,7 +7,7 @@ export class RecipeService {
 
   private recipes: Recipe[] = [
     new Recipe(
-      'A Test Recipe',
+      'Delicious potatoes',
       'This is simply a test',
       'https://cdn.apartmenttherapy.info/image/upload/v1564775676/k/Photo/Recipes/2019-08-how-to-juiciest-turkey-meatballs/How-to-Make-the-Best-Juiciest-Turkey-Meatballs_055.jpg',
       [
@@ -15,9 +15,9 @@ export class RecipeService {
         new Ingredient("Meat", 5)
       ]),
     new Recipe(
-      'Another Test Recipe',
+      'Cool fruit desk',
       'This is simply a test',
-      'https://food.fnr.sndimg.com/content/dam/images/food/fullset/2018/9/26/0/FNK_Tuscan-Chicken-Skillet_H2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1537973085542.jpeg',
+      'https://ak4.picdn.net/shutterstock/videos/15812494/thumb/12.jpg',
       [
         new Ingredient("Salt", 2),
         new Ingredient("Burger", 100)
